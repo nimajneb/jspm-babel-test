@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "description": "Test",
+  "version": "0.0.1",
+  "homepage": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.27"
+  },
+  "jspm": {
+    "name": "test",
+    "main": "app.js",
+    "dependencies": {},
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.13"
+    },
+    "peerDependencies": {}
+  }
+}
